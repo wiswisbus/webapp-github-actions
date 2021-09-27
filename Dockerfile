@@ -15,4 +15,4 @@ COPY . /app
 # RUN poetry config settings.virtualenvs.create false
 RUN poetry install --no-interaction --no-dev
 
-CMD poetry run streamlit run --server.port 8509 main.py
+CMD poetry run streamlit run --server.port 80 main.py
